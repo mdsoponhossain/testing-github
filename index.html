@@ -203,8 +203,9 @@
                     <!-- first  -->
                     <section class="w-80 h-40 bg-[#FFF] pl-5 rounded-lg">
                         <h1 class="text-2xl font-medium mb-4 pt-4">Have coupon? </h1>
-                        <input class="border pl-3 h-12 " type="text" placeholder="Coupon code"><button
-                            class=" inline btn btn-secondary ">Apply</button>
+                        <input class="border pl-3 h-12 " type="text" placeholder="Coupon code">
+                        <button id="coupon-btn"  class=" inline btn btn-secondary"disabled>Apply</button>
+                            
 
                     </section>
                     <!-- second -->
@@ -212,16 +213,36 @@
 
                         <div id="product-name-entry" class="text-black w-80  bg-[#FFF] pl-5 mt-6 h-96 pt-5 ">
                         </div>
-                        <div  class=" w-80 bg-[#FFF] h-72">
-                         <div id="total-price" class="border-t-2 border-b-2 w-60 mx-auto bg-[#FFF] h-48" >
+                        <div class=" w-80 bg-[#FFF] h-72">
 
-                         </div>
+                            <div id="total-price-container"
+                                class="border-t-2 border-b-2 w-60 mx-auto bg-[#FFF] h-48 pt-7">
+                                <p class="text-2xl font-medium p-1">
+                                    Total Price: 
+                                    <span id="total-price" class="text-[#11111180]">00</span> 
+                                    <span class="text-[#11111180]">TK</span>
+                                </p>
+
+                                <p class="text-2xl font-medium p-1">
+                                    Discount: 
+                                    <span id="discount"class="text-[#11111180]">00</span>
+                                    <span class="text-[#11111180]">TK</span>   
+                                </p>
+                                         
+
+                                <p class="text-2xl font-medium p-1">
+                                    Total : 
+                                    <span id="total"class="text-[#11111180]">00</span>
+                                    <span class="text-[#11111180]">TK</span>
+                                </p>
+
+                            </div>
                         </div>
 
 
                         <div class="relative">
-                            <div class="  absolute left-8 -bottom-7 "> <button
-                                    class=" w-64 btn btn-secondary ">Make Purchase</button></div>
+                            <div class="  absolute left-8 -bottom-7 "> <button class=" w-64 btn btn-secondary ">Make
+                                    Purchase</button></div>
                         </div>
                     </section>
                 </div>
