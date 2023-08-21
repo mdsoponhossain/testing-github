@@ -1,6 +1,3 @@
-
-
-
 /* first card */
 document.getElementById("first-card").addEventListener('click', function () {
     const price1 = getThePrice('p-one');
@@ -319,3 +316,6 @@ function theName() {
 document.getElementById('go-home-btn').addEventListener('click', function () {
     location.reload();
 })
+
+
+
